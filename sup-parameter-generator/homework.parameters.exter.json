@@ -1,0 +1,99 @@
+{
+  "version" : "1.0",
+  "parameters" : [ {
+    "name" : "name0",
+    "description" : "description0",
+    "isList" : true,
+    "roles" : [ ],
+    "type" : "type0",
+    "bundle" : [ ]
+  }, {
+    "name" : "name1",
+    "description" : "description1",
+    "isList" : false,
+    "roles" : [ "role1 0" ],
+    "type" : "type1",
+    "bundle" : [ {
+      "path" : [ ],
+      "values" : [ ]
+    } ]
+  }, {
+    "name" : "name2",
+    "description" : "description2",
+    "isList" : true,
+    "roles" : [ "role2 0", "role2 1" ],
+    "type" : "type2",
+    "bundle" : [ {
+      "path" : [ ],
+      "values" : [ ]
+    }, {
+      "path" : [ {
+        "code" : "pathCode1 0",
+        "value" : "pathValue1 0"
+      } ],
+      "values" : [ "value1 0" ]
+    } ]
+  }, {
+    "name" : "name3",
+    "description" : "description3",
+    "isList" : false,
+    "roles" : [ "role3 0", "role3 1", "role3 2" ],
+    "type" : "type3",
+    "bundle" : [ {
+      "path" : [ ],
+      "values" : [ ]
+    }, {
+      "path" : [ {
+        "code" : "pathCode1 0",
+        "value" : "pathValue1 0"
+      } ],
+      "values" : [ "value1 0" ]
+    }, {
+      "path" : [ {
+        "code" : "pathCode2 0",
+        "value" : "pathValue2 0"
+      }, {
+        "code" : "pathCode2 1",
+        "value" : "pathValue2 1"
+      } ],
+      "values" : [ "value2 0", "value2 1" ]
+    } ]
+  }, {
+    "name" : "name4",
+    "description" : "description4",
+    "isList" : true,
+    "roles" : [ "role4 0", "role4 1", "role4 2", "role4 3" ],
+    "type" : "type4",
+    "bundle" : [ {
+      "path" : [ ],
+      "values" : [ ]
+    }, {
+      "path" : [ {
+        "code" : "pathCode1 0",
+        "value" : "pathValue1 0"
+      } ],
+      "values" : [ "value1 0" ]
+    }, {
+      "path" : [ {
+        "code" : "pathCode2 0",
+        "value" : "pathValue2 0"
+      }, {
+        "code" : "pathCode2 1",
+        "value" : "pathValue2 1"
+      } ],
+      "values" : [ "value2 0", "value2 1" ]
+    }, {
+      "path" : [ {
+        "code" : "pathCode3 0",
+        "value" : "pathValue3 0"
+      }, {
+        "code" : "pathCode3 1",
+        "value" : "pathValue3 1"
+      }, {
+        "code" : "pathCode3 2",
+        "value" : "pathValue3 2"
+      } ],
+      "values" : [ "value3 0", "value3 1", "value3 2" ]
+    } ]
+  } ]
+}
